@@ -8,9 +8,13 @@ body {
     line-height: 2.5;
 }
 
-h2 {
-    display:flex;
+div.splash {
+    display: block;
+    width: .50rem;
+    height: .25rem;
+    float: right
 }
+
 
 svg-viewBox {
 display: flex;
@@ -41,10 +45,10 @@ contact input {
 }
 
 contact input, textarea {
-    border: 0px
-    background-color: #273A71;
+  border: 0px;
+  background-color: lightgray;
   border-radius: 4px;
-  color: #fff;
+  color:black;
   padding: 12px 12px 12px 12px;
 }
 
