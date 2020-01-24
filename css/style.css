@@ -7,11 +7,20 @@ body {
 
 h1 {
     font-size: 5rem;
-    display: center;
-    
+    display: center;  
+    position: relative; top: -75px;
 }
 
+.itsme {
+    border-radius: 50%;
+    float: center;
+    position: relative; top: -96px;
+}
 
+.menu {
+    font-size: 2rem;
+    
+}
 
 .splash {
     width: 40rem;
