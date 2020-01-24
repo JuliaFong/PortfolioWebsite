@@ -36,13 +36,18 @@ svg {
     width: 5%;
 }
 
-.toma {
+h2 {
+    flex-direction: column;
+    display: center;
+}
+
+.mt {
     width: 65%;
     height: 60%;
     display: center;
 }
 
-.mt {
+.toma {
     width: 65%;
     height: 60%;
     display: center;
