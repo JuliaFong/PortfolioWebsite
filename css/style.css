@@ -2,23 +2,23 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.4rem;
-    font-weight: 200;
-    line-height: 2.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-div.splash {
-    display: block;
-    width: .50rem;
-    height: .25rem;
-    float: right
+h1 {
+    font-size: 5rem;
+    display: center;
+    
 }
 
 
-svg-viewBox {
-display: flex;
-flex-direction: column;
+
+.splash {
+    width: 40rem;
+    height: 38rem;
+    display: left;
+    float: left;
+
 }
 
 svg {
@@ -27,8 +27,20 @@ svg {
     width: 5%;
 }
 
+.toma {
+    width: 65%;
+    height: 60%;
+    display: center;
+}
+
+.mt {
+    width: 65%;
+    height: 60%;
+    display: center;
+}
+
 contact {
-    display: flex;
+
     flex-direction: row;
     justify-content: space-around;
     height: 3%;
@@ -69,3 +81,4 @@ contact {
     height: 2px;
     border-top: 0px;
 }
+
