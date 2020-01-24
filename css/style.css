@@ -5,8 +5,8 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h1 {
-    font-size: 5rem;
+.me {
+    font-size: 3rem;
     display: center;  
     position: relative; top: -75px;
 }
@@ -23,8 +23,8 @@ h1 {
 }
 
 .splash {
-    width: 40rem;
-    height: 38rem;
+    width: 45rem;
+    height: 37rem;
     display: left;
     float: left;
 
@@ -77,6 +77,7 @@ textarea {
     margin-top: 40px;
     width: 650px;
     height: 140px;
+    flex-direction: row;
 }
 
 submit {
@@ -89,5 +90,25 @@ contact {
     width: 12%;
     height: 2px;
     border-top: 0px;
+}
+.git {
+    height: 5rem;
+    width: 50px;
+    position: relative;
+    bottom: 0rem;
+}
+
+.link {
+    height: 5rem;
+    width: 50px;
+    position: relative;
+    bottom: 0rem;
+}
+
+.emailme {
+    height: 5rem;
+    width: 50px;
+    position: relative;
+    bottom: 0rem;
 }
 
