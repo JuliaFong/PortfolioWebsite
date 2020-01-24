@@ -8,19 +8,28 @@ body {
 .me {
     font-size: 3rem;
     display: center;  
-    position: relative; top: -75px;
+    position: relative; top: -45px;
 }
 
 .itsme {
     border-radius: 50%;
     float: center;
-    position: relative; top: -96px;
+    position: relative; top: -54px;
 }
+
 
 .menu {
     font-size: 2rem;
+    column-gap: 5%;
     
 }
+
+li {
+    list-style-type: none;
+    position: relative; top: -50px;
+    margin-bottom: 1.5%;
+}
+
 
 .splash {
     width: 45rem;
@@ -32,13 +41,20 @@ body {
 
 svg {
     justify-content: space-around;
-    height: 5%;
-    width: 5%;
+    height: 4%;
+    width: 4%;
 }
 
 h2 {
     flex-direction: column;
     display: center;
+}
+
+.juicebx {
+    width: 55%;
+    height: 50%;
+    display: center;
+
 }
 
 .mt {
