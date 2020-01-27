@@ -77,46 +77,17 @@ contact {
     width: 5%;
 }
 
-.contact-box {
-    -webkit-box-shadow: inset 0 15px 10px -9px #787878;
-    box-shadow: inset 0 15px 10px -9px #787878;  
+.icon {
+    display: flex;
+    justify-content: space-around;
 }
 
-contact input {
-    margin-top: 60px;
-}
-
-contact input, textarea {
-  border: 0px;
-  background-color: lightgray;
-  border-radius: 4px;
-  color:black;
-  padding: 12px 12px 12px 12px;
-}
-
-textarea {
-    margin-top: 40px;
-    width: 650px;
-    height: 140px;
-    flex-direction: row;
-}
-
-submit {
-    margin-top: 45px;
-    margin-left: 40%;
-    border: 2px solid;
-}
-
-contact {
-    width: 12%;
-    height: 2px;
-    border-top: 0px;
-}
 .git {
     height: 5rem;
     width: 50px;
     position: relative;
     bottom: 0rem;
+    margin-left: 1%;
 }
 
 .link {
@@ -131,5 +102,6 @@ contact {
     width: 50px;
     position: relative;
     bottom: 0rem;
+   margin-right: 2%;
 }
 
