@@ -2,13 +2,20 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 .me {
     font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: center;  
-    position: relative; top: -45px;
+    position: relative; top: -100px;
 }
 
 .itsme {
@@ -18,10 +25,11 @@ body {
 }
 
 
-.menu {
+#menu {
     font-size: 2rem;
     column-gap: 5%;
-    
+    margin: auto 0;
+    padding-right: 150px;
 }
 
 li {
@@ -39,10 +47,20 @@ li {
 
 }
 
+#aboutme {
+    padding: 0px 113px;
+  
+}
+
 svg {
     justify-content: space-around;
     height: 4%;
     width: 4%;
+}
+
+.tech {
+    text-align: center;
+    position: relative; top: 45px;
 }
 
 h2 {
@@ -55,6 +73,19 @@ h2 {
     height: 50%;
     display: center;
 
+}
+
+
+.timeline {
+    width: 75%;
+    height: 70%;
+    display: center;
+}
+
+.gottagonow {
+    width: 65%;
+    height: 60%;
+    display: center;
 }
 
 .mt {
@@ -77,31 +108,38 @@ contact {
     width: 5%;
 }
 
-.icon {
-    display: flex;
-    justify-content: space-around;
+.icons {
+    display: inline-block;
 }
 
 .git {
-    height: 5rem;
+    height: 50px;
     width: 50px;
     position: relative;
     bottom: 0rem;
-    margin-left: 1%;
+    margin-left: auto;
 }
 
 .link {
-    height: 5rem;
+    height: 50px;
     width: 50px;
     position: relative;
     bottom: 0rem;
+    margin: auto;
 }
 
 .emailme {
-    height: 5rem;
+    height: 50px;
     width: 50px;
     position: relative;
     bottom: 0rem;
-   margin-right: 2%;
+   margin-right: auto;
 }
 
+.endme {
+    position: relative; top: 25px;
+}
+
+.soft {
+    position: relative; top: 25px; 
+}
