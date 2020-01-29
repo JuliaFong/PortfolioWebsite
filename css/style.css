@@ -11,6 +11,11 @@ body {
     justify-content: space-between;
 }
 
+#main-nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .me {
     font-size: 3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -50,6 +55,11 @@ li {
 #aboutme {
     padding: 0px 113px;
   
+}
+
+.language {
+flex-direction: row;
+flex-wrap: wrap;
 }
 
 svg {
@@ -109,15 +119,19 @@ contact {
 }
 
 .icons {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+.icons a {
+    text-decoration: none;
 }
 
 .git {
     height: 50px;
     width: 50px;
-    position: relative;
-    bottom: 0rem;
-    margin-left: auto;
+    background-color: transparent;
+    outline-color: transparent;
 }
 
 .link {
@@ -143,3 +157,4 @@ contact {
 .soft {
     position: relative; top: 25px; 
 }
+
