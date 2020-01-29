@@ -60,12 +60,34 @@ li {
 .language {
 flex-direction: row;
 flex-wrap: wrap;
+align-items: flex-start;
+align-content: space-between;
 }
 
+.language2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.language3 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.language4 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
 svg {
+    align-items: stretch;
     justify-content: space-around;
-    height: 4%;
-    width: 4%;
+    height: 10%;
+    width: 10%;
 }
 
 .tech {
