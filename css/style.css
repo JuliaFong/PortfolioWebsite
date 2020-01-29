@@ -184,4 +184,9 @@ contact {
     body {
         max-width: 80%;
     }
+    #aboutme {
+        display: flex;
+        flex-direction: column;
+        
+    }
 }
