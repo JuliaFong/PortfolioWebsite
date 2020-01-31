@@ -197,13 +197,13 @@ contact {
 }
 
  .end {
-    position: relative; top: 25px;
- }
+     position: relative; top: 25px;
+}
 
-.soft {
-        position: relative; top: 25px; 
-        text-align: center;
-    }
+ .soft {
+    position: relative; top: 25px; 
+    text-align: center;
+}
 
 
 
