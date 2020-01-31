@@ -1,8 +1,9 @@
-body {
+
+body {  
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 80px;
+    flex-direction: column;	        
+    text-align: center;	        
+    padding: 80px;	       
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -11,7 +12,7 @@ body {
     justify-content: space-between;
 }
 
-#main-nav a {
+ #main-nav a {
     text-decoration: none;
     color: black;
 }
@@ -30,17 +31,31 @@ body {
 }
 
 
-#menu {
+ #menu {
     font-size: 2rem;
     column-gap: 5%;
     margin: auto 0;
     padding-right: 150px;
 }
 
-li {
-    list-style-type: none;
+ li {
+     list-style-type: none;
     position: relative; top: -50px;
     margin-bottom: 1.5%;
+}
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    flex-direction: row;
+    text-align: center;
+}
+
+
+h4 {
+    text-align: center;
 }
 
 
@@ -49,84 +64,96 @@ li {
     height: 37rem;
     display: left;
     float: left;
-
 }
 
-#aboutme {
-    padding: 0px 113px;
-  
+#aboutme {	    
+    padding: 0px 113px;	
+}
+
+h2 {
+    text-align: center;
 }
 
 .language {
-flex-direction: row;
-flex-wrap: wrap;
-align-items: flex-start;
-align-content: space-between;
+    flex-direction: row;	        
+    flex-wrap: wrap;	
+    align-items: flex-start;	    
+    align-content: space-between;
 }
 
 .language2 {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
+    align-content: space-between;
+    justify-content: space-around;
 }
 
 .language3 {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
+    align-content: space-between;
+    justify-content: space-around;
 }
 
 .language4 {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
+    align-content: space-between;
+   justify-content: space-around;
 }
 
 
 svg {
-    align-items: stretch;
-    justify-content: space-around;
+     align-items: stretch;
+     justify-content: space-around;
     height: 10%;
     width: 10%;
+    display: center;
 }
 
 .tech {
-    text-align: center;
+     text-align: center;
     position: relative; top: 45px;
 }
 
-h2 {
+ h2 {
     flex-direction: column;
     display: center;
+ }
+
+.port-row {
+    align-content: center;
 }
 
-.juicebx {
+ .juicebx {
     width: 55%;
     height: 50%;
-    display: center;
+    display: center;  
+ }
 
-}
 
-
-.timeline {
+ .timeline {
     width: 75%;
     height: 70%;
-    display: center;
+    display: center;   
 }
 
 .gottagonow {
     width: 65%;
     height: 60%;
     display: center;
-}
+ }
 
-.mt {
+    .mt {
     width: 65%;
     height: 60%;
     display: center;
 }
 
-.toma {
+ .toma {
     width: 65%;
     height: 60%;
     display: center;
@@ -145,91 +172,41 @@ contact {
 }
 
 .icons a {
-    text-decoration: none;
+     text-decoration: none;
 }
 
 .git {
-    height: 50px;
-    width: 50px;
-}
+    height: 80px;
+     width: 80px;
+ }
 
 .link {
     height: 50px;
-    width: 50px;
-    position: relative;
-    bottom: 0rem;
-    margin: auto;
+     width: 50px;
+     position: relative;
+     bottom: 0rem;
+     margin: auto;
 }
 
 .emailme {
     height: 50px;
-    width: 50px;
+     width: 50px;
     position: relative;
     bottom: 0rem;
-   margin-right: auto;
+    margin-right: auto;
 }
 
-.endme {
+ .end {
     position: relative; top: 25px;
-}
+ }
 
 .soft {
-    position: relative; top: 25px; 
-}
-/* for iphone 4 & 4s  */
-@media only screen 
-and (min-width: 320px) 
-and (max-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* for ihpone 5, 5s, 5c, 5se */
-@media only screen 
-  and (min-width: 320px) 
-  and (max-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* iphone 6, 6s, 7, 8 */
-@media only screen 
-  and (min-width: 375px) 
-  and (max-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-
-}
-
-/* iphone 6+, 7+, 8+ */
-@media only screen 
-  and (min-width: 414px) 
-  and (max-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-/* Iphone x */
-@media only screen 
-  and (min-width: 375px) 
-  and (max-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
-@media (max-width: 767px) {
-   
-} 
-body {
-      padding: 50px;
-      text-align: center;  
-    }
-    h3 {
-        font-size: 50px;
-        padding: 50px;
+        position: relative; top: 25px; 
         text-align: center;
     }
-    #aboutme {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-    
-    }
+
+
+
+
+
+
