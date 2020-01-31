@@ -31,15 +31,15 @@ body {
 }
 
 
- #menu {
+#menu {
     font-size: 2rem;
     column-gap: 5%;
     margin: auto 0;
     padding-right: 150px;
 }
 
- li {
-     list-style-type: none;
+li {
+    list-style-type: none;
     position: relative; top: -50px;
     margin-bottom: 1.5%;
 }
@@ -52,7 +52,6 @@ h1 {
     flex-direction: row;
     text-align: center;
 }
-
 
 h4 {
     text-align: center;
@@ -105,7 +104,6 @@ h2 {
    justify-content: space-around;
 }
 
-
 svg {
      align-items: stretch;
      justify-content: space-around;
@@ -147,7 +145,7 @@ svg {
     display: center;
  }
 
-    .mt {
+.mt {
     width: 65%;
     height: 60%;
     display: center;
@@ -178,14 +176,14 @@ contact {
 .git {
     height: 80px;
      width: 80px;
- }
+}
 
 .link {
     height: 50px;
-     width: 50px;
-     position: relative;
-     bottom: 0rem;
-     margin: auto;
+    width: 50px;
+    position: relative;
+    bottom: 0rem;
+    margin: auto;
 }
 
 .emailme {
@@ -197,7 +195,7 @@ contact {
 }
 
  .end {
-     position: relative; top: 25px;
+    position: relative; top: 25px;
 }
 
  .soft {
