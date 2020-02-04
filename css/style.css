@@ -230,6 +230,7 @@ contact {
         font-family: Georgia, 'Times New Roman', Times, serif;
         display: center;  
         position: relative; top: -90px;
+        padding-top: 20px;
     }
         
     .itsme {
@@ -252,6 +253,7 @@ contact {
         text-align: center;
         margin: auto;
         padding: 0;
+        text-align: center;
     }
         
     li {
