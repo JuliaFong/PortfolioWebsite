@@ -210,7 +210,7 @@ contact {
         display: flex;
         flex-direction: column;	        
         text-align: center;	        
-        padding: 80px;	       
+        padding: 20px;	       
         font-family: 'Montserrat', sans-serif;
     }
         
@@ -230,7 +230,7 @@ contact {
         font-family: Georgia, 'Times New Roman', Times, serif;
         display: center;  
         position: relative; top: -90px;
-        padding-top: 20px;
+        padding-top: 75px;
     }
         
     .itsme {
@@ -241,12 +241,12 @@ contact {
         
         
     #menu {
-            font-size: 2rem;
-            column-gap: 5%;
-            margin: auto;
-            padding: 0px;
-            display: block;
-            text-align: center;
+        font-size: 2rem;
+        column-gap: 5%;
+        margin: auto;
+        padding: 0px;
+        display: block;
+        text-align: center;
     }
 
     .menu {
@@ -273,8 +273,7 @@ contact {
         
     h4 {
         text-align: center;
-    }
-        
+    }  
         
     .splash {
         width: 25rem;
@@ -299,6 +298,8 @@ contact {
         flex-wrap: wrap;	
         align-items: flex-start;	    
         align-content: space-between;
+        margin: auto;
+        width: 19rem;
     }
         
     .language2 {
@@ -336,7 +337,11 @@ contact {
         text-align: center;
         position: relative; top: 10px;
     }
-
+    #tech {
+        text-align: center;
+        margin: auto;  
+        padding: 20px;
+    }
         
     .tech {
         text-align: center;
