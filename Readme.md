@@ -1,5 +1,7 @@
 # Portfolio
-My personl portfolio website
+My personal portfolio website
+
+View my site at: www.juliafong.codes
 
 # Languages used:
 
