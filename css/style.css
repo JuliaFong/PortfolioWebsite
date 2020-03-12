@@ -132,6 +132,17 @@ svg {
     display: center;  
  }
 
+ .gottagonow {
+     width: 65%;
+     height: 60%;
+     display: center;
+  }
+
+  .friend {
+    width: 65%;
+    height: 60%;
+    display: center;
+  }
 
  .timeline {
     width: 75%;
@@ -139,11 +150,6 @@ svg {
     display: center;   
 }
 
-.gottagonow {
-    width: 65%;
-    height: 60%;
-    display: center;
- }
 
 .mt {
     width: 65%;
@@ -365,18 +371,25 @@ contact {
         display: center;  
     }
         
-        
+    .gottagonow {
+        width: 65%;
+        height: 60%;
+        display: center;
+    }
+
+    .friend {
+        width: 65%;
+        height: 60%;
+        display: center;
+
+    }
+    
     .timeline {
         width: 75%;
         height: 70%;
         display: center;   
     }
         
-    .gottagonow {
-        width: 65%;
-        height: 60%;
-        display: center;
-    }
         
     .mt {
         width: 65%;
