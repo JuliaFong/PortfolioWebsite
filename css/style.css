@@ -126,23 +126,30 @@ svg {
     align-content: center;
 }
 
-.tetris {
+
+.juicebx {
     width: 65%;
     height: 60%;
     display: center;
 }
 
- .juicebx {
-    width: 55%;
-    height: 50%;
-    display: center;  
- }
+.gottagonow {
+    width: 65%;
+    height: 60%;
+    display: center;
+}
 
- .gottagonow {
-     width: 65%;
-     height: 60%;
-     display: center;
-  }
+    .tetris {
+        width: 65%;
+        height: 60%;
+        display: center;
+    }
+
+    .trivia {
+        width: 65%;
+        height: 60%;
+        display: center;
+    }
 
   .pokedex {
       width: 65%;
@@ -378,9 +385,9 @@ contact {
     }
         
     .juicebx {
-        width: 55%;
-        height: 50%;
-        display: center;  
+        width: 65%;
+        height: 60%;
+        display: center;
     }
         
     .gottagonow {
@@ -390,6 +397,12 @@ contact {
     }
 
     .tetris {
+        width: 65%;
+        height: 60%;
+        display: center;
+    }
+
+    .trivia {
         width: 65%;
         height: 60%;
         display: center;
