@@ -126,6 +126,12 @@ svg {
     align-content: center;
 }
 
+.tetris {
+    width: 65%;
+    height: 60%;
+    display: center;
+}
+
  .juicebx {
     width: 55%;
     height: 50%;
@@ -378,6 +384,12 @@ contact {
     }
         
     .gottagonow {
+        width: 65%;
+        height: 60%;
+        display: center;
+    }
+
+    .tetris {
         width: 65%;
         height: 60%;
         display: center;
