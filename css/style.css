@@ -151,6 +151,12 @@ svg {
         display: center;
     }
 
+    .tsMap {
+        width: 65%;
+        height: 60%;
+        display: center;
+    }
+
   .pokedex {
       width: 65%;
       height: 60%;
@@ -403,6 +409,12 @@ contact {
     }
 
     .trivia {
+        width: 65%;
+        height: 60%;
+        display: center;
+    }
+
+    .tsMap {
         width: 65%;
         height: 60%;
         display: center;
